@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-weight: 490;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-1 {
+    background-image: url(./img/victor-grabarczyk-N04FIfHhv_k-unsplash-1.jpg);
+    width: 100%;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.5rem;
+     
+}
+
+.navigation > img {
+    width: 9rem;
+    margin-left: 12rem
+}
+
+.navigation > img:hover{
+    cursor: pointer;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    margin-top: 1.8rem;
+}
+
+.navigation > ul > li {
+    padding: 1.5rem;
+}
+
+.navigation > ul > li:hover{
+    color: #ffb100 ;
+    cursor: pointer;
+    color-interpolation-filters: sRGB;
+}
+
+.navigation > span {
+    font-size: 1.12rem;
+    font-weight:lighter;
+    padding: 1.5rem;
+    margin-right: 12rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.navigation > span:hover{
+    cursor: pointer;
+}
+
+
+.section-1-detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 18%;
+}
+
+.section-1-detail > h1 {
+    padding: 1rem;
+    color: #00484f;
+    
+}
+
+.section-1-detail > p {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    color: #0c71c3;
+    
+
+}
+
+.section-1-detail > button {
+    padding: 1.6rem 3rem;
+    margin: 4rem 2rem;
+    background-color:  #ffb100;
+    border-radius: 0.55rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.section-1-detail > button:hover{
+    background-color: #e3c8be ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+/* section-2 */
+
+.section-2 {
+    width: 100%;
+    padding: 10rem;
+    align-items: center;
+    /* text-align: center; */
+    display: flex ;
+    flex-direction: column;
+     
+     
+     
+}
+
+.cart-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.cart-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.cart-three {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+
+
+.cart {
+    
+    width: 23%;
+    
+}
+
+.cart > img {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 1.5rem;
+
+}
+
+.cart > p {
+    font-size: 1.8rem;
+    padding: 1rem;
+     
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.section-3 {
+    width: 100%;
+    padding: 12rem;
+    
+    flex-direction: column;
+    
+}
+
+#section-2-entries {
+    font-size: 2rem;
+    text-align: start;
+    color: #0c71c3;
+    
+}
+
+#section-2-entries:hover{
+    cursor: pointer;
+}
+
+/* section-3 */
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+     
+    
+}
+
+.section-3-socials > ul {
+    font-size: 3rem;
+    display: flex;
+    /* padding: 1rem; */
+}
+
+.section-3-socials > ul > li {
+    padding: 1rem;
+    color:  #ffb100;
+}
+
+.section-3-socials > ul > li:hover{
+    color:#6c00ff;
+    cursor: pointer;
+}
+
+.section-3-Categories{
+    font-size: 2rem;
+    
+    margin-left: 4%;
+}
+
+.section-3-Categories > h3 {
+    margin-bottom: 2rem;
+}
+
+.section-3-Categories > ul > li {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffb100;
+    font-weight: bold;
+}
+
+.section-3-Categories > ul > li:hover{
+    color:#6c00ff;
+    cursor: pointer;
+}
+
+.section-3-Site_Resources{
+    font-size: 2rem;
+    
+    margin-left: 35%;
+}
+
+.section-3-Site_Resources > h3 {
+    margin-bottom: 2rem;
+}
+
+.section-3-Site_Resources > ul > li{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffb100;
+    font-weight: bold;
+}
+
+.section-3-Site_Resources > ul > li:hover{
+    color: #6c00ff;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 3%;
+    background-color:#6c00ff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+
+ 
+ 
