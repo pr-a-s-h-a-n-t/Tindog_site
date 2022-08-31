@@ -5,8 +5,14 @@
      
 }
 
+body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    background-color: #fbfcff;
+}
+
 h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
     font-weight: 490;
 }
 
@@ -113,96 +119,104 @@ ul {
 
 
 /* section-2 */
-
+ 
 .section-2 {
-    width: 100%;
-    padding: 10rem;
+    width:100% ;
+    padding-top: 3rem;
     align-items: center;
-    /* text-align: center; */
-    display: flex ;
-    flex-direction: column;
-     
-     
+    justify-content: center;
      
 }
 
-.cart-one {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
+.section-2-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 3rem
+    ;
+    /* grid-template-rows: 1fr; */
 }
-
-.cart-two {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
-}
-
-.cart-three {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
-}
-
-
 
 .cart {
-    
-    width: 23%;
-    
+    background-color: #ffffff;
+    box-shadow: 10px 10px goldenrod;
+    /* width: 25%; */
+     
+
 }
 
 .cart > img {
     width: 100%;
-    height: 40%;
-    margin-bottom: 1.5rem;
+}
 
+.cart > h4 {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cart #reference {
+    padding: 1rem;
+    margin-top: -1.5rem;
+    font-size: 0.85rem;
 }
 
 .cart > p {
-    font-size: 1.8rem;
     padding: 1rem;
+    line-height: 1.8rem;
+    margin-top: -1.5rem;
+    /* font-size: 1.2rem; */
+    /* letter-spacing: 0.2rem; */
+}
+
+.section-2-container > #section-2-entries {
+    color: #2ea3f2;
+    margin: 1rem 0;
      
-    text-align: justify;
-    line-height: 2.5rem;
 }
 
-.section-3 {
-    width: 100%;
-    padding: 12rem;
-    
-    flex-direction: column;
-    
-}
 
-#section-2-entries {
-    font-size: 2rem;
-    text-align: start;
-    color: #0c71c3;
-    
-}
 
-#section-2-entries:hover{
-    cursor: pointer;
-}
 
 /* section-3 */
 
 .section-3 {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(90deg,rgba(0,0,0,0) 0%,#2c2b4c 80%),url(./img/fatty-corgi-Zn5chZcnFRA-unsplash-1-1.jpg)!important;
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    margin: auto;
+     
      
     
 }
 
-.section-3-socials > ul {
-    font-size: 3rem;
+.section-3-container {
     display: flex;
+    flex-direction: row;
+    padding-top: 16%;
+    margin: auto;
+    width: 65%;
+    height: 100%;
+     
+     
+    /* margin: auto; */
+
+}
+
+.section-3-socials > ul {
+    font-size: 1.7rem;
+    display: flex;
+    /* margin-left: 40%; */
     /* padding: 1rem; */
+     
 }
 
 .section-3-socials > ul > li {
-    padding: 1rem;
+    padding: 0.35rem;
+    margin-top: -0.5rem;
+
     color:  #ffb100;
 }
 
@@ -212,20 +226,24 @@ ul {
 }
 
 .section-3-Categories{
-    font-size: 2rem;
-    
-    margin-left: 4%;
+     
+    text-align: left;
+    margin-left: 2.7rem;
+     
 }
 
-.section-3-Categories > h3 {
+.section-3-Categories > h2 {
     margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 650;
+    color: #353338;
 }
 
 .section-3-Categories > ul > li {
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 0.5rem;
     color: #ffb100;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .section-3-Categories > ul > li:hover{
@@ -234,20 +252,27 @@ ul {
 }
 
 .section-3-Site_Resources{
-    font-size: 2rem;
-    
+    /* font-size: 2rem; */
+    text-align: left;
+ 
     margin-left: 35%;
+    
 }
 
-.section-3-Site_Resources > h3 {
+.section-3-Site_Resources > h2 {
     margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 650;
+    color: #353338;
 }
 
 .section-3-Site_Resources > ul > li{
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 0.5rem;
+     
+    /* font-size: 1.5rem; */
     color: #ffb100;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .section-3-Site_Resources > ul > li:hover{
@@ -256,12 +281,16 @@ ul {
 }
 
 footer{
-    width: 100%;
-    height: 3%;
-    background-color:#6c00ff;
     text-align: center;
-    padding: 1.5rem;
-    font-size: 2rem;
+    border-top: 1px solid;
+
+     
+}
+
+footer > p {
+    padding: 2rem;
+    font-weight: 700;
+    background-color: goldenrod;
 }
 
 
